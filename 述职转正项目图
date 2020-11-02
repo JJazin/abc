@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2020-11-02T02:04:46.227Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="OHpr_aVcrYWEief2Ytjk" version="13.8.5" type="github">
-  <diagram id="lwFNikzzSa281xdLFKVE" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2020-11-02T02:15:06.032Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="QyfFfuFTzDc-ISipeid_" version="13.8.5" type="github">
+  <diagram id="lwFNikzzSa281xdLFKVE" name="滞留件项目流程图">
     <mxGraphModel dx="1426" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2Bo9lWnUjidrlEMHdCnF-1" value="三叶草系统" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="90" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2Bo9lWnUjidrlEMHdCnF-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="90" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="2Bo9lWnUjidrlEMHdCnF-3" value="违规处理中心（tps-hestia）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="195" y="100" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2Bo9lWnUjidrlEMHdCnF-4" value="赔付规则" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Bo9lWnUjidrlEMHdCnF-5" value="赔付记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Bo9lWnUjidrlEMHdCnF-6" value="对外查询的接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="130" width="30" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="2Bo9lWnUjidrlEMHdCnF-7" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="310" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="2Bo9lWnUjidrlEMHdCnF-9" value="驿站掌柜（tps-tarzan）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="310" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2Bo9lWnUjidrlEMHdCnF-10" value="展示赔付的流水" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="350" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
