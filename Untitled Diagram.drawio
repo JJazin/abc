@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-17T08:42:55.928Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="vF1XxBe1jUZO1r_hrPwt" version="13.8.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-11-17T08:44:42.718Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="FnZDtLChsFCc-B0MDxlV" version="13.8.8" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="新增画像变更流程图">
     <mxGraphModel dx="2125" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -15,6 +15,11 @@
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7nt7jbDDiHWMOhAb8vEt-0" target="7nt7jbDDiHWMOhAb8vEt-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Qx3p_Dnqk8iQGHl_JnPD-10" value="有三种情况" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7nt7jbDDiHWMOhAb8vEt-2">
+          <mxGeometry x="-0.25" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-0" value="获取请求中的detailList" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="170" width="120" height="60" as="geometry" />
         </mxCell>
@@ -24,7 +29,7 @@
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7nt7jbDDiHWMOhAb8vEt-1" target="7nt7jbDDiHWMOhAb8vEt-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7nt7jbDDiHWMOhAb8vEt-1" value="从变更项明细中查询画像DO" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="7nt7jbDDiHWMOhAb8vEt-1" value="第一种情况：&lt;br&gt;从变更项明细中查询画像DO" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7nt7jbDDiHWMOhAb8vEt-3" target="7nt7jbDDiHWMOhAb8vEt-7">
@@ -33,7 +38,7 @@
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7nt7jbDDiHWMOhAb8vEt-3" target="7nt7jbDDiHWMOhAb8vEt-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7nt7jbDDiHWMOhAb8vEt-3" value="如果变更项明细没有则从画像定义中查询出来画像DO" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="7nt7jbDDiHWMOhAb8vEt-3" value="第二种情况：&lt;br&gt;如果变更项明细没有则从画像定义中查询出来画像DO" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="401" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7nt7jbDDiHWMOhAb8vEt-5" target="7nt7jbDDiHWMOhAb8vEt-15">
@@ -60,7 +65,7 @@
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7nt7jbDDiHWMOhAb8vEt-9" target="7nt7jbDDiHWMOhAb8vEt-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7nt7jbDDiHWMOhAb8vEt-9" value="如果变更项明细没有，并且画像定义也没有" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="7nt7jbDDiHWMOhAb8vEt-9" value="第三种情况：&lt;br&gt;如果变更项明细没有，并且画像定义也没有" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="790" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7nt7jbDDiHWMOhAb8vEt-11" target="7nt7jbDDiHWMOhAb8vEt-28">
