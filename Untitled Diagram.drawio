@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-17T08:39:33.914Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="GTQKytHwllE-BYq9qL_5" version="13.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-17T08:42:21.822Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="b7sBWoesDj-P05_x2qwR" version="13.8.8" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="新增画像变更流程图">
     <mxGraphModel dx="2125" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -117,7 +117,10 @@
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-30" value="将code记录到一个容器，为新建变更项的itemContent做准备" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-50" y="780" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7nt7jbDDiHWMOhAb8vEt-32" value="结束" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Qx3p_Dnqk8iQGHl_JnPD-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7nt7jbDDiHWMOhAb8vEt-32" target="Qx3p_Dnqk8iQGHl_JnPD-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7nt7jbDDiHWMOhAb8vEt-32" value="结果1" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-50" y="920" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7nt7jbDDiHWMOhAb8vEt-34" target="7nt7jbDDiHWMOhAb8vEt-36">
@@ -138,7 +141,10 @@
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-38" value="&lt;span&gt;将code记录到一个容器，为新建变更项的itemContent做准备&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="885" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7nt7jbDDiHWMOhAb8vEt-40" value="结束" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Qx3p_Dnqk8iQGHl_JnPD-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7nt7jbDDiHWMOhAb8vEt-40" target="Qx3p_Dnqk8iQGHl_JnPD-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7nt7jbDDiHWMOhAb8vEt-40" value="结果2" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="1025" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7nt7jbDDiHWMOhAb8vEt-42" target="7nt7jbDDiHWMOhAb8vEt-44">
@@ -147,7 +153,14 @@
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-42" value="&lt;span&gt;将code记录到一个容器，为新建变更项的itemContent做准备&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="610" y="825" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7nt7jbDDiHWMOhAb8vEt-44" value="结束" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Qx3p_Dnqk8iQGHl_JnPD-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7nt7jbDDiHWMOhAb8vEt-44" target="Qx3p_Dnqk8iQGHl_JnPD-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="1330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nt7jbDDiHWMOhAb8vEt-44" value="结果4" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="610" y="930" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7nt7jbDDiHWMOhAb8vEt-46" target="7nt7jbDDiHWMOhAb8vEt-48">
@@ -168,7 +181,15 @@
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-50" value="&lt;span&gt;将code记录到一个容器，为新建变更项的itemContent做准备&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="401" y="885" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7nt7jbDDiHWMOhAb8vEt-52" value="结束" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Qx3p_Dnqk8iQGHl_JnPD-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7nt7jbDDiHWMOhAb8vEt-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="1330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="461" y="1330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nt7jbDDiHWMOhAb8vEt-52" value="结果3" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="401" y="1025" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7nt7jbDDiHWMOhAb8vEt-54" target="7nt7jbDDiHWMOhAb8vEt-56">
@@ -183,9 +204,28 @@
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-56" value="&lt;span&gt;将code记录到一个容器，为新建变更项的itemContent做准备&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="790" y="780" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7nt7jbDDiHWMOhAb8vEt-58" value="结束" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Qx3p_Dnqk8iQGHl_JnPD-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1.033;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7nt7jbDDiHWMOhAb8vEt-58" target="Qx3p_Dnqk8iQGHl_JnPD-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="1330" />
+              <mxPoint x="74" y="1330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nt7jbDDiHWMOhAb8vEt-58" value="结果5" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="790" y="920" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Qx3p_Dnqk8iQGHl_JnPD-0" value="收集完所有的code后" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-50" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="YQ_KHS6WlytYg4svi6XQ" name="修改变更项流程图">
+    <mxGraphModel dx="1298" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="PnoFD1_S3OsPUla_mJMS-0" />
+        <mxCell id="PnoFD1_S3OsPUla_mJMS-1" parent="PnoFD1_S3OsPUla_mJMS-0" />
       </root>
     </mxGraphModel>
   </diagram>
