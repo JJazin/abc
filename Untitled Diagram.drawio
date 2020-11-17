@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-17T12:03:49.887Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="eyYqW8nYD7QIa-gHS2Kn" version="13.8.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-11-17T12:04:59.777Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="LBZaBk5k6jlAVcCY125G" version="13.8.8" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="新增画像变更流程图">
     <mxGraphModel dx="2125" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -423,7 +423,10 @@
         <mxCell id="qD_yedyBt8SBSQrg6rjo-36" value="结果" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
           <mxGeometry x="-60" y="1430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qD_yedyBt8SBSQrg6rjo-38" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
+        <mxCell id="qD_yedyBt8SBSQrg6rjo-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnoFD1_S3OsPUla_mJMS-1" source="qD_yedyBt8SBSQrg6rjo-38" target="qD_yedyBt8SBSQrg6rjo-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qD_yedyBt8SBSQrg6rjo-38" value="上写锁" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
           <mxGeometry x="107" y="1180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qD_yedyBt8SBSQrg6rjo-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnoFD1_S3OsPUla_mJMS-1" source="qD_yedyBt8SBSQrg6rjo-40" target="qD_yedyBt8SBSQrg6rjo-17">
@@ -431,6 +434,21 @@
         </mxCell>
         <mxCell id="qD_yedyBt8SBSQrg6rjo-40" value="上写锁" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
           <mxGeometry x="490" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qD_yedyBt8SBSQrg6rjo-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnoFD1_S3OsPUla_mJMS-1" source="qD_yedyBt8SBSQrg6rjo-43" target="qD_yedyBt8SBSQrg6rjo-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qD_yedyBt8SBSQrg6rjo-43" value="1、找到变更过的字段&lt;br&gt;2、将变更过的字段新增到变更项明细的value中" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
+          <mxGeometry x="107" y="1290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qD_yedyBt8SBSQrg6rjo-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnoFD1_S3OsPUla_mJMS-1" source="qD_yedyBt8SBSQrg6rjo-45" target="qD_yedyBt8SBSQrg6rjo-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qD_yedyBt8SBSQrg6rjo-45" value="&lt;span&gt;记录该code信息到变更项itemContent缓存&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
+          <mxGeometry x="107" y="1400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qD_yedyBt8SBSQrg6rjo-47" value="结果" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
+          <mxGeometry x="107" y="1540" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
