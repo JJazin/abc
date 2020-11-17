@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-17T11:39:09.555Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="p9RACbz6FqCQ1rU4_pFG" version="13.8.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-11-17T11:57:37.869Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="jE0d02bwLjETDbZIL_fv" version="13.8.8" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="新增画像变更流程图">
     <mxGraphModel dx="2125" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -239,7 +239,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="YQ_KHS6WlytYg4svi6XQ" name="修改变更项流程图">
-    <mxGraphModel dx="1298" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2125" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="PnoFD1_S3OsPUla_mJMS-0" />
         <mxCell id="PnoFD1_S3OsPUla_mJMS-1" parent="PnoFD1_S3OsPUla_mJMS-0" />
@@ -304,13 +304,67 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="geXhNZ8nja1yCa0YpEY--14" value="code不一致，&lt;br&gt;说明是换了一个元数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
-          <mxGeometry x="540" y="680" width="120" height="60" as="geometry" />
+          <mxGeometry x="650" y="670" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="geXhNZ8nja1yCa0YpEY--16" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
-          <mxGeometry x="330" y="820" width="120" height="60" as="geometry" />
+        <mxCell id="qD_yedyBt8SBSQrg6rjo-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnoFD1_S3OsPUla_mJMS-1" source="geXhNZ8nja1yCa0YpEY--16" target="qD_yedyBt8SBSQrg6rjo-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qD_yedyBt8SBSQrg6rjo-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnoFD1_S3OsPUla_mJMS-1" source="geXhNZ8nja1yCa0YpEY--16" target="qD_yedyBt8SBSQrg6rjo-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="geXhNZ8nja1yCa0YpEY--16" value="根据code和type查询变更项明细" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
+          <mxGeometry x="330" y="780" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="geXhNZ8nja1yCa0YpEY--18" value="" style="whiteSpace=wrap;html=1;rounded=0;direction=west;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
-          <mxGeometry x="540" y="820" width="120" height="60" as="geometry" />
+          <mxGeometry x="650" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qD_yedyBt8SBSQrg6rjo-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnoFD1_S3OsPUla_mJMS-1" source="qD_yedyBt8SBSQrg6rjo-0" target="qD_yedyBt8SBSQrg6rjo-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qD_yedyBt8SBSQrg6rjo-0" value="变更项明细没有这个code和type的记录，那么就查询画像DO" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
+          <mxGeometry x="160" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qD_yedyBt8SBSQrg6rjo-3" value="变更项明细和画像DO都没有该code和type的记录" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
+          <mxGeometry x="-40" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qD_yedyBt8SBSQrg6rjo-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnoFD1_S3OsPUla_mJMS-1" source="qD_yedyBt8SBSQrg6rjo-5" target="qD_yedyBt8SBSQrg6rjo-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qD_yedyBt8SBSQrg6rjo-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnoFD1_S3OsPUla_mJMS-1" source="qD_yedyBt8SBSQrg6rjo-5" target="qD_yedyBt8SBSQrg6rjo-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qD_yedyBt8SBSQrg6rjo-5" value="1、获取变更项明细和画像DO在merge之后的定义&lt;br&gt;2、比对merge之后的定义和请求过来的定义是否一致" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
+          <mxGeometry x="300" y="910" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qD_yedyBt8SBSQrg6rjo-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnoFD1_S3OsPUla_mJMS-1" source="qD_yedyBt8SBSQrg6rjo-7" target="qD_yedyBt8SBSQrg6rjo-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qD_yedyBt8SBSQrg6rjo-7" value="一致" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
+          <mxGeometry x="330" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qD_yedyBt8SBSQrg6rjo-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnoFD1_S3OsPUla_mJMS-1" source="qD_yedyBt8SBSQrg6rjo-9" target="qD_yedyBt8SBSQrg6rjo-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qD_yedyBt8SBSQrg6rjo-9" value="不一致" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
+          <mxGeometry x="490" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qD_yedyBt8SBSQrg6rjo-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnoFD1_S3OsPUla_mJMS-1" source="qD_yedyBt8SBSQrg6rjo-11" target="qD_yedyBt8SBSQrg6rjo-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qD_yedyBt8SBSQrg6rjo-11" value="不做修改" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
+          <mxGeometry x="330" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qD_yedyBt8SBSQrg6rjo-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnoFD1_S3OsPUla_mJMS-1" source="qD_yedyBt8SBSQrg6rjo-13" target="qD_yedyBt8SBSQrg6rjo-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qD_yedyBt8SBSQrg6rjo-13" value="记录该code信息到变更项itemContent缓存" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
+          <mxGeometry x="330" y="1240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qD_yedyBt8SBSQrg6rjo-15" value="结果" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
+          <mxGeometry x="330" y="1370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qD_yedyBt8SBSQrg6rjo-17" value="1、将请求过来的value和merge之后的画像DO进行比对，找到有变更的字段&lt;br&gt;2、将变更过的字段设置到变更项明细中" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
+          <mxGeometry x="470" y="1120" width="160" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
