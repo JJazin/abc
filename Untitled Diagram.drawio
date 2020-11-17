@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-17T08:35:21.611Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="s5c_eD7elih2rziMkc15" version="13.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-17T08:38:56.810Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="zCsK6KMV27NofAbnDUxS" version="13.8.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2125" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-3" value="如果变更项明细没有则从画像定义中查询出来画像DO" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="401" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7nt7jbDDiHWMOhAb8vEt-5" target="7nt7jbDDiHWMOhAb8vEt-15">
           <mxGeometry relative="1" as="geometry" />
@@ -55,19 +55,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-7" value="比对请求过来的value和画像DO的必要属性" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="380" width="120" height="60" as="geometry" />
+          <mxGeometry x="401" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7nt7jbDDiHWMOhAb8vEt-9" target="7nt7jbDDiHWMOhAb8vEt-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-9" value="如果变更项明细没有，并且画像定义也没有" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="670" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="790" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7nt7jbDDiHWMOhAb8vEt-11" target="7nt7jbDDiHWMOhAb8vEt-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-11" value="这种情况就是新增变更项明细" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="670" y="380" width="120" height="60" as="geometry" />
+          <mxGeometry x="790" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7nt7jbDDiHWMOhAb8vEt-15" target="7nt7jbDDiHWMOhAb8vEt-24">
           <mxGeometry relative="1" as="geometry" />
@@ -81,14 +81,17 @@
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-17" value="比对不等" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="525" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="7nt7jbDDiHWMOhAb8vEt-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7nt7jbDDiHWMOhAb8vEt-19" target="7nt7jbDDiHWMOhAb8vEt-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-19" value="比对不等" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="525" width="120" height="60" as="geometry" />
+          <mxGeometry x="401" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7nt7jbDDiHWMOhAb8vEt-22" target="7nt7jbDDiHWMOhAb8vEt-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-22" value="比对相等" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="520" y="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="610" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7nt7jbDDiHWMOhAb8vEt-24" target="7nt7jbDDiHWMOhAb8vEt-30">
           <mxGeometry relative="1" as="geometry" />
@@ -100,10 +103,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-26" value="这一步需要为definitionCode上读锁，原因是变更项明细没有该code记录，也就是之前没有上过写锁，那么就要上读锁来保证资源被锁定" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="510" y="650" width="140" height="130" as="geometry" />
+          <mxGeometry x="600" y="650" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7nt7jbDDiHWMOhAb8vEt-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7nt7jbDDiHWMOhAb8vEt-28" target="7nt7jbDDiHWMOhAb8vEt-54">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-28" value="需要上写锁" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="670" y="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="790" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7nt7jbDDiHWMOhAb8vEt-30" target="7nt7jbDDiHWMOhAb8vEt-32">
           <mxGeometry relative="1" as="geometry" />
@@ -139,10 +145,46 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-42" value="&lt;span&gt;将code记录到一个容器，为新建变更项的itemContent做准备&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="520" y="825" width="120" height="60" as="geometry" />
+          <mxGeometry x="610" y="825" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7nt7jbDDiHWMOhAb8vEt-44" value="结束" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="520" y="930" width="120" height="60" as="geometry" />
+          <mxGeometry x="610" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7nt7jbDDiHWMOhAb8vEt-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7nt7jbDDiHWMOhAb8vEt-46" target="7nt7jbDDiHWMOhAb8vEt-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7nt7jbDDiHWMOhAb8vEt-46" value="上写锁" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="401" y="625" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7nt7jbDDiHWMOhAb8vEt-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7nt7jbDDiHWMOhAb8vEt-48" target="7nt7jbDDiHWMOhAb8vEt-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7nt7jbDDiHWMOhAb8vEt-48" value="1、将请求中修改的字段跟画像DO的字段进行对比&lt;br&gt;2、找到修改过的字段&lt;br&gt;3、新增变更项明细记录&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="386" y="745" width="150" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7nt7jbDDiHWMOhAb8vEt-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7nt7jbDDiHWMOhAb8vEt-50" target="7nt7jbDDiHWMOhAb8vEt-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7nt7jbDDiHWMOhAb8vEt-50" value="&lt;span&gt;将code记录到一个容器，为新建变更项的itemContent做准备&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="401" y="885" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7nt7jbDDiHWMOhAb8vEt-52" value="结束" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="401" y="1025" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7nt7jbDDiHWMOhAb8vEt-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7nt7jbDDiHWMOhAb8vEt-54" target="7nt7jbDDiHWMOhAb8vEt-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7nt7jbDDiHWMOhAb8vEt-54" value="新增变更项明细记录" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="790" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7nt7jbDDiHWMOhAb8vEt-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7nt7jbDDiHWMOhAb8vEt-56" target="7nt7jbDDiHWMOhAb8vEt-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7nt7jbDDiHWMOhAb8vEt-56" value="&lt;span&gt;将code记录到一个容器，为新建变更项的itemContent做准备&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="790" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7nt7jbDDiHWMOhAb8vEt-58" value="结束" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="790" y="920" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
