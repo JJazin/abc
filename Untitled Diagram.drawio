@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-17T12:03:08.330Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="U8ZcenlmJUZonGFD2CoU" version="13.8.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-11-17T12:03:43.049Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="nbx8q9D7VQJ0Ihs4rCKG" version="13.8.8" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="新增画像变更流程图">
     <mxGraphModel dx="2125" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -357,7 +357,7 @@
         <mxCell id="qD_yedyBt8SBSQrg6rjo-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnoFD1_S3OsPUla_mJMS-1" source="qD_yedyBt8SBSQrg6rjo-11" target="qD_yedyBt8SBSQrg6rjo-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qD_yedyBt8SBSQrg6rjo-11" value="不做修改" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
+        <mxCell id="qD_yedyBt8SBSQrg6rjo-11" value="因为已经有了变更项明细，说明之前就有上写锁，因此不会上读锁" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
           <mxGeometry x="330" y="1140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qD_yedyBt8SBSQrg6rjo-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnoFD1_S3OsPUla_mJMS-1" source="qD_yedyBt8SBSQrg6rjo-13" target="qD_yedyBt8SBSQrg6rjo-15">
