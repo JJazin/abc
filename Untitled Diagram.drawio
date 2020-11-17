@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-17T08:44:42.718Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="FnZDtLChsFCc-B0MDxlV" version="13.8.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-11-17T11:36:12.490Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="gaFvoP7GY98LVCUlZFSg" version="13.8.8" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="新增画像变更流程图">
     <mxGraphModel dx="2125" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -243,6 +243,51 @@
       <root>
         <mxCell id="PnoFD1_S3OsPUla_mJMS-0" />
         <mxCell id="PnoFD1_S3OsPUla_mJMS-1" parent="PnoFD1_S3OsPUla_mJMS-0" />
+        <mxCell id="hFesy3KnWkTCKt3z9ht4-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnoFD1_S3OsPUla_mJMS-1" source="hFesy3KnWkTCKt3z9ht4-0" target="hFesy3KnWkTCKt3z9ht4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hFesy3KnWkTCKt3z9ht4-0" value="修改变更项" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
+          <mxGeometry x="330" y="70" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="geXhNZ8nja1yCa0YpEY--1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnoFD1_S3OsPUla_mJMS-1" source="hFesy3KnWkTCKt3z9ht4-3" target="geXhNZ8nja1yCa0YpEY--0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hFesy3KnWkTCKt3z9ht4-3" value="获取DB中的变更项，以及变更项明细" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
+          <mxGeometry x="330" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="geXhNZ8nja1yCa0YpEY--3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnoFD1_S3OsPUla_mJMS-1" source="geXhNZ8nja1yCa0YpEY--0" target="geXhNZ8nja1yCa0YpEY--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="geXhNZ8nja1yCa0YpEY--0" value="将变更项的itemContent与请求过来的detailReq进行比对" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
+          <mxGeometry x="330" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="geXhNZ8nja1yCa0YpEY--5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnoFD1_S3OsPUla_mJMS-1" source="geXhNZ8nja1yCa0YpEY--2" target="geXhNZ8nja1yCa0YpEY--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="geXhNZ8nja1yCa0YpEY--7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnoFD1_S3OsPUla_mJMS-1" source="geXhNZ8nja1yCa0YpEY--2" target="geXhNZ8nja1yCa0YpEY--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="geXhNZ8nja1yCa0YpEY--2" value="先比对类型" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
+          <mxGeometry x="330" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="geXhNZ8nja1yCa0YpEY--9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnoFD1_S3OsPUla_mJMS-1" source="geXhNZ8nja1yCa0YpEY--4" target="geXhNZ8nja1yCa0YpEY--8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="geXhNZ8nja1yCa0YpEY--4" value="类型一致" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
+          <mxGeometry x="330" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="geXhNZ8nja1yCa0YpEY--11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnoFD1_S3OsPUla_mJMS-1" source="geXhNZ8nja1yCa0YpEY--6" target="geXhNZ8nja1yCa0YpEY--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="geXhNZ8nja1yCa0YpEY--6" value="类型不一致" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
+          <mxGeometry x="510" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="geXhNZ8nja1yCa0YpEY--8" value="再比对DB的code和请求的code是否一致" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
+          <mxGeometry x="330" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="geXhNZ8nja1yCa0YpEY--10" value="因为变更项关联的变更项明细是按顺序存储，因此如果类型不同，也就是新增的时候就不同，因此抛异常" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
+          <mxGeometry x="690" y="310" width="120" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
