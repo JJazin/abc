@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-17T11:36:12.490Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="gaFvoP7GY98LVCUlZFSg" version="13.8.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-11-17T11:39:09.555Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="p9RACbz6FqCQ1rU4_pFG" version="13.8.8" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="新增画像变更流程图">
     <mxGraphModel dx="2125" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -282,11 +282,35 @@
         <mxCell id="geXhNZ8nja1yCa0YpEY--6" value="类型不一致" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
           <mxGeometry x="510" y="340" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="geXhNZ8nja1yCa0YpEY--13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnoFD1_S3OsPUla_mJMS-1" source="geXhNZ8nja1yCa0YpEY--8" target="geXhNZ8nja1yCa0YpEY--12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="geXhNZ8nja1yCa0YpEY--15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnoFD1_S3OsPUla_mJMS-1" source="geXhNZ8nja1yCa0YpEY--8" target="geXhNZ8nja1yCa0YpEY--14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="geXhNZ8nja1yCa0YpEY--8" value="再比对DB的code和请求的code是否一致" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
           <mxGeometry x="330" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="geXhNZ8nja1yCa0YpEY--10" value="因为变更项关联的变更项明细是按顺序存储，因此如果类型不同，也就是新增的时候就不同，因此抛异常" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
           <mxGeometry x="690" y="310" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="geXhNZ8nja1yCa0YpEY--17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnoFD1_S3OsPUla_mJMS-1" source="geXhNZ8nja1yCa0YpEY--12" target="geXhNZ8nja1yCa0YpEY--16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="geXhNZ8nja1yCa0YpEY--12" value="code是一致，&lt;br&gt;说明是修改了变更项明细的value" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
+          <mxGeometry x="330" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="geXhNZ8nja1yCa0YpEY--19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnoFD1_S3OsPUla_mJMS-1" source="geXhNZ8nja1yCa0YpEY--14" target="geXhNZ8nja1yCa0YpEY--18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="geXhNZ8nja1yCa0YpEY--14" value="code不一致，&lt;br&gt;说明是换了一个元数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
+          <mxGeometry x="540" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="geXhNZ8nja1yCa0YpEY--16" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
+          <mxGeometry x="330" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="geXhNZ8nja1yCa0YpEY--18" value="" style="whiteSpace=wrap;html=1;rounded=0;direction=west;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
+          <mxGeometry x="540" y="820" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
