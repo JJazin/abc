@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-19T13:26:01.696Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="mU7lgZP3T52TCu2lPH8E" version="13.9.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-11-19T13:44:20.024Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="V98PCS_Dfq4SfzxUjlq1" version="13.9.9" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="新增画像变更流程图">
     <mxGraphModel dx="3423" dy="2759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -295,8 +295,10 @@
         <mxCell id="geXhNZ8nja1yCa0YpEY--2" value="先比对类型" style="whiteSpace=wrap;html=1;rounded=0;" parent="PnoFD1_S3OsPUla_mJMS-1" vertex="1">
           <mxGeometry x="330" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="geXhNZ8nja1yCa0YpEY--9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="PnoFD1_S3OsPUla_mJMS-1" source="geXhNZ8nja1yCa0YpEY--4" target="geXhNZ8nja1yCa0YpEY--8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="WfBwkjxeG9v_-VaLgRSv-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="PnoFD1_S3OsPUla_mJMS-1" source="geXhNZ8nja1yCa0YpEY--4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="389.52941176470586" y="530" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="geXhNZ8nja1yCa0YpEY--4" value="类型一致" style="whiteSpace=wrap;html=1;rounded=0;" parent="PnoFD1_S3OsPUla_mJMS-1" vertex="1">
           <mxGeometry x="330" y="440" width="120" height="60" as="geometry" />
@@ -314,7 +316,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="geXhNZ8nja1yCa0YpEY--8" value="再比对DB的code和请求的code是否一致" style="whiteSpace=wrap;html=1;rounded=0;" parent="PnoFD1_S3OsPUla_mJMS-1" vertex="1">
-          <mxGeometry x="330" y="540" width="120" height="60" as="geometry" />
+          <mxGeometry x="330" y="600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="geXhNZ8nja1yCa0YpEY--10" value="因为变更项关联的变更项明细是按顺序存储，因此如果类型不同，也就是新增的时候就不同，因此抛异常" style="whiteSpace=wrap;html=1;rounded=0;" parent="PnoFD1_S3OsPUla_mJMS-1" vertex="1">
           <mxGeometry x="690" y="310" width="120" height="120" as="geometry" />
@@ -607,6 +609,27 @@
         </mxCell>
         <mxCell id="qD_yedyBt8SBSQrg6rjo-82" value="结束" style="whiteSpace=wrap;html=1;rounded=0;" parent="PnoFD1_S3OsPUla_mJMS-1" vertex="1">
           <mxGeometry x="-240" y="2160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WfBwkjxeG9v_-VaLgRSv-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PnoFD1_S3OsPUla_mJMS-1" source="WfBwkjxeG9v_-VaLgRSv-1" target="geXhNZ8nja1yCa0YpEY--8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WfBwkjxeG9v_-VaLgRSv-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnoFD1_S3OsPUla_mJMS-1" source="WfBwkjxeG9v_-VaLgRSv-1" target="WfBwkjxeG9v_-VaLgRSv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WfBwkjxeG9v_-VaLgRSv-1" value="如果detailReq的value不为空" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
+          <mxGeometry x="330" y="530" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WfBwkjxeG9v_-VaLgRSv-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PnoFD1_S3OsPUla_mJMS-1" source="WfBwkjxeG9v_-VaLgRSv-4" target="WfBwkjxeG9v_-VaLgRSv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WfBwkjxeG9v_-VaLgRSv-4" value="如果detailReq的value为空" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
+          <mxGeometry x="130" y="530" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WfBwkjxeG9v_-VaLgRSv-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="PnoFD1_S3OsPUla_mJMS-1" source="WfBwkjxeG9v_-VaLgRSv-6" target="qD_yedyBt8SBSQrg6rjo-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WfBwkjxeG9v_-VaLgRSv-6" value="直接跳过变更项明细的crud" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="PnoFD1_S3OsPUla_mJMS-1">
+          <mxGeometry x="-413" y="520" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
