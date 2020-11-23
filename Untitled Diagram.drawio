@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-23T11:14:44.692Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="1nt1RhAqD-RkXkx1nL8G" version="13.10.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-11-23T11:15:37.372Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="nljvM8vpnMoEnxbSwgEF" version="13.10.0" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="新增画像变更流程图">
     <mxGraphModel dx="2990" dy="2494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -930,7 +930,7 @@
         <mxCell id="vnXrRhnInMa91g_Rb9E8-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9k4zPxeTD30UBVgrTzLZ-1" source="vnXrRhnInMa91g_Rb9E8-2" target="vnXrRhnInMa91g_Rb9E8-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vnXrRhnInMa91g_Rb9E8-2" value="执行新建adb表部分" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="9k4zPxeTD30UBVgrTzLZ-1">
+        <mxCell id="vnXrRhnInMa91g_Rb9E8-2" value="执行新建adb表部分，连接线上的数据源" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="9k4zPxeTD30UBVgrTzLZ-1">
           <mxGeometry x="477.5" y="1370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vnXrRhnInMa91g_Rb9E8-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9k4zPxeTD30UBVgrTzLZ-1" source="vnXrRhnInMa91g_Rb9E8-4" target="vnXrRhnInMa91g_Rb9E8-6">
@@ -1007,6 +1007,14 @@
         <mxCell id="vnXrRhnInMa91g_Rb9E8-24" value="批量更新该变更id下的变更项list的状态为已执行到线上" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="9k4zPxeTD30UBVgrTzLZ-1">
           <mxGeometry x="477.5" y="2371" width="120" height="60" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="YwS021silLmcGaJZ3RFk" name="执行到日常打破7网隔离">
+    <mxGraphModel dx="1298" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="aOZADUuLPWXbvMHzio9e-0" />
+        <mxCell id="aOZADUuLPWXbvMHzio9e-1" parent="aOZADUuLPWXbvMHzio9e-0" />
       </root>
     </mxGraphModel>
   </diagram>
