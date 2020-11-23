@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-23T10:53:56.965Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="NgfnzlYJGnHAKFxFbDqB" version="13.10.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-11-23T10:54:07.674Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="YbsWUPq3GVWN7zTKE4Bl" version="13.10.0" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="新增画像变更流程图">
     <mxGraphModel dx="2990" dy="2494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -819,9 +819,6 @@
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-64" value="批量更新该变更id下的变更项list的状态为已执行到日常" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
           <mxGeometry x="450" y="2230" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lFmzeToeIARTjXVKr4Tj-69" value="批量更新该变更id下的变更项list的状态为已执行到日常" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
-          <mxGeometry x="460" y="1260" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
