@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-23T10:29:09.125Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="mZAuyZLbxYtRDX9BcIy4" version="13.10.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-11-23T10:46:17.723Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="NfUdVtvdb_UhooEiyNe1" version="13.10.0" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="新增画像变更流程图">
     <mxGraphModel dx="2990" dy="2494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -644,13 +644,13 @@
         <mxCell id="lFmzeToeIARTjXVKr4Tj-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lFmzeToeIARTjXVKr4Tj-1" source="lFmzeToeIARTjXVKr4Tj-3" target="lFmzeToeIARTjXVKr4Tj-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lFmzeToeIARTjXVKr4Tj-3" value="根据变更id获取变更项明细list" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
-          <mxGeometry x="350" y="220" width="120" height="60" as="geometry" />
+        <mxCell id="lFmzeToeIARTjXVKr4Tj-3" value="1、根据变更id获取变更项的list&lt;br&gt;2、根据变更id找到变更项明细list&lt;br&gt;3、找到变更项的itemContent存在的变更项明细组装成真正要操作的变更项明细list" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
+          <mxGeometry x="285" y="220" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lFmzeToeIARTjXVKr4Tj-1" source="lFmzeToeIARTjXVKr4Tj-5" target="lFmzeToeIARTjXVKr4Tj-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lFmzeToeIARTjXVKr4Tj-5" value="遍历变更项明细list&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
+        <mxCell id="lFmzeToeIARTjXVKr4Tj-5" value="遍历变更项的list，和变更项明细的list" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
           <mxGeometry x="350" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lFmzeToeIARTjXVKr4Tj-1" source="lFmzeToeIARTjXVKr4Tj-7" target="lFmzeToeIARTjXVKr4Tj-13">
