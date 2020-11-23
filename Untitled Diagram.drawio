@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-23T11:07:37.141Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="4IQ4KqvLEG7rg5scXYl5" version="13.10.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-11-23T11:08:34.008Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="EheVj0Gvpi5rGakHiD42" version="13.10.0" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="新增画像变更流程图">
     <mxGraphModel dx="2990" dy="2494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -689,23 +689,14 @@
         <mxCell id="lFmzeToeIARTjXVKr4Tj-17" value="根据对应的code和type查definiton表，看是否有definition记录" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
           <mxGeometry x="350" y="680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lFmzeToeIARTjXVKr4Tj-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lFmzeToeIARTjXVKr4Tj-1" source="lFmzeToeIARTjXVKr4Tj-19" target="lFmzeToeIARTjXVKr4Tj-29">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="210" y="1140" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="abIJNZ8Ibd7el4kTCEtt-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.638;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="lFmzeToeIARTjXVKr4Tj-1" source="lFmzeToeIARTjXVKr4Tj-19" target="abIJNZ8Ibd7el4kTCEtt-0">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-19" value="如果无&lt;br&gt;1、将变更项明细的value转化为对应的definition对象&lt;br&gt;2、执行新增definition" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
           <mxGeometry x="150" y="810" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="lFmzeToeIARTjXVKr4Tj-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lFmzeToeIARTjXVKr4Tj-1" source="lFmzeToeIARTjXVKr4Tj-21" target="lFmzeToeIARTjXVKr4Tj-29">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="410" y="950" />
-              <mxPoint x="510" y="950" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="abIJNZ8Ibd7el4kTCEtt-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="lFmzeToeIARTjXVKr4Tj-1" source="lFmzeToeIARTjXVKr4Tj-21" target="abIJNZ8Ibd7el4kTCEtt-0">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-21" value="如果有&lt;br&gt;1、将变更项明细中的value转化为对应的definiton对象&lt;br&gt;2、copy变更项明细的definiton对象到原始的对象中&lt;br&gt;3、执行更新definition" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
           <mxGeometry x="320" y="770" width="180" height="130" as="geometry" />
@@ -719,24 +710,11 @@
         <mxCell id="lFmzeToeIARTjXVKr4Tj-23" value="根据code和type查询definition" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
           <mxGeometry x="550" y="680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lFmzeToeIARTjXVKr4Tj-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lFmzeToeIARTjXVKr4Tj-1" source="lFmzeToeIARTjXVKr4Tj-25">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="510" y="1110" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="600" y="950" />
-              <mxPoint x="510" y="950" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-25" value="如果查不出来，则抛异常" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
           <mxGeometry x="550" y="830" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lFmzeToeIARTjXVKr4Tj-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="lFmzeToeIARTjXVKr4Tj-1" source="lFmzeToeIARTjXVKr4Tj-27" target="lFmzeToeIARTjXVKr4Tj-29">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="835" y="1155" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="abIJNZ8Ibd7el4kTCEtt-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.997;entryY=0.638;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="lFmzeToeIARTjXVKr4Tj-1" source="lFmzeToeIARTjXVKr4Tj-27" target="abIJNZ8Ibd7el4kTCEtt-0">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-27" value="如果查出来&lt;br&gt;1、将变更项明细的value转化为definition对象&lt;br&gt;2、将变更项明细的definition对象有的属性copy到definiiton中&lt;br&gt;3、更新definition" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
           <mxGeometry x="740" y="770" width="190" height="130" as="geometry" />
@@ -745,31 +723,33 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-29" value="遍历完成" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
-          <mxGeometry x="450" y="1110" width="120" height="60" as="geometry" />
+          <mxGeometry x="450" y="1119" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lFmzeToeIARTjXVKr4Tj-1" source="lFmzeToeIARTjXVKr4Tj-36" target="lFmzeToeIARTjXVKr4Tj-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-36" value="执行新建adb表部分" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
-          <mxGeometry x="450" y="1220" width="120" height="60" as="geometry" />
+          <mxGeometry x="450" y="1229" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lFmzeToeIARTjXVKr4Tj-1" source="lFmzeToeIARTjXVKr4Tj-38" target="lFmzeToeIARTjXVKr4Tj-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-38" value="记录上面的domainDefinition的adb表和adb主键" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
-          <mxGeometry x="450" y="1320" width="120" height="60" as="geometry" />
+          <mxGeometry x="450" y="1329" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lFmzeToeIARTjXVKr4Tj-1" source="lFmzeToeIARTjXVKr4Tj-40" target="lFmzeToeIARTjXVKr4Tj-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-40" value="记录新增的apProfile的字段和类型" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
-          <mxGeometry x="450" y="1420" width="120" height="60" as="geometry" />
+          <mxGeometry x="450" y="1429" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lFmzeToeIARTjXVKr4Tj-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lFmzeToeIARTjXVKr4Tj-1" source="lFmzeToeIARTjXVKr4Tj-42" target="lFmzeToeIARTjXVKr4Tj-44">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="lFmzeToeIARTjXVKr4Tj-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lFmzeToeIARTjXVKr4Tj-1" source="lFmzeToeIARTjXVKr4Tj-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="1599" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-42" value="将加速层字段和adb表绑定在一起" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
-          <mxGeometry x="450" y="1500" width="120" height="60" as="geometry" />
+          <mxGeometry x="450" y="1509" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lFmzeToeIARTjXVKr4Tj-1" source="lFmzeToeIARTjXVKr4Tj-44" target="lFmzeToeIARTjXVKr4Tj-50">
           <mxGeometry relative="1" as="geometry" />
@@ -824,6 +804,12 @@
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-64" value="批量更新该变更id下的变更项list的状态为已执行到日常" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
           <mxGeometry x="450" y="2230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="abIJNZ8Ibd7el4kTCEtt-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lFmzeToeIARTjXVKr4Tj-1" source="abIJNZ8Ibd7el4kTCEtt-0" target="lFmzeToeIARTjXVKr4Tj-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="abIJNZ8Ibd7el4kTCEtt-0" value="1、如果是domainDefiniton和apProfile、profile等信息，则需要记录下来&lt;br&gt;2、然后绑定关系，记录adbtable、columnName、columnType、comment信息等" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
+          <mxGeometry x="335" y="1000" width="350" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
