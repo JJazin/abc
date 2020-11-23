@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-23T10:46:17.723Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="NfUdVtvdb_UhooEiyNe1" version="13.10.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-11-23T10:53:37.411Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="eurBmERIY9SEjq5fdY36" version="13.10.0" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="新增画像变更流程图">
     <mxGraphModel dx="2990" dy="2494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -736,47 +736,41 @@
         <mxCell id="lFmzeToeIARTjXVKr4Tj-27" value="如果查出来&lt;br&gt;1、将变更项明细的value转化为definition对象&lt;br&gt;2、将变更项明细的definition对象有的属性copy到definiiton中&lt;br&gt;3、更新definition" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
           <mxGeometry x="740" y="770" width="190" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="lFmzeToeIARTjXVKr4Tj-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lFmzeToeIARTjXVKr4Tj-1" source="lFmzeToeIARTjXVKr4Tj-29" target="lFmzeToeIARTjXVKr4Tj-34">
+        <mxCell id="lFmzeToeIARTjXVKr4Tj-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lFmzeToeIARTjXVKr4Tj-1" source="lFmzeToeIARTjXVKr4Tj-29" target="lFmzeToeIARTjXVKr4Tj-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-29" value="遍历完成" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
           <mxGeometry x="450" y="1110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lFmzeToeIARTjXVKr4Tj-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lFmzeToeIARTjXVKr4Tj-1" source="lFmzeToeIARTjXVKr4Tj-34" target="lFmzeToeIARTjXVKr4Tj-36">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lFmzeToeIARTjXVKr4Tj-34" value="批量更新该变更id下的变更项list的状态为已执行到日常" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
-          <mxGeometry x="450" y="1250" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lFmzeToeIARTjXVKr4Tj-1" source="lFmzeToeIARTjXVKr4Tj-36" target="lFmzeToeIARTjXVKr4Tj-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-36" value="执行新建adb表部分" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
-          <mxGeometry x="450" y="1350" width="120" height="60" as="geometry" />
+          <mxGeometry x="450" y="1220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lFmzeToeIARTjXVKr4Tj-1" source="lFmzeToeIARTjXVKr4Tj-38" target="lFmzeToeIARTjXVKr4Tj-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-38" value="记录上面的domainDefinition的adb表和adb主键" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
-          <mxGeometry x="450" y="1460" width="120" height="60" as="geometry" />
+          <mxGeometry x="450" y="1320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lFmzeToeIARTjXVKr4Tj-1" source="lFmzeToeIARTjXVKr4Tj-40" target="lFmzeToeIARTjXVKr4Tj-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-40" value="记录新增的apProfile的字段和类型" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
-          <mxGeometry x="450" y="1550" width="120" height="60" as="geometry" />
+          <mxGeometry x="450" y="1420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lFmzeToeIARTjXVKr4Tj-1" source="lFmzeToeIARTjXVKr4Tj-42" target="lFmzeToeIARTjXVKr4Tj-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-42" value="将加速层字段和adb表绑定在一起" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
-          <mxGeometry x="450" y="1640" width="120" height="60" as="geometry" />
+          <mxGeometry x="450" y="1500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lFmzeToeIARTjXVKr4Tj-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lFmzeToeIARTjXVKr4Tj-1" source="lFmzeToeIARTjXVKr4Tj-44" target="lFmzeToeIARTjXVKr4Tj-50">
+        <mxCell id="lFmzeToeIARTjXVKr4Tj-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lFmzeToeIARTjXVKr4Tj-1" source="lFmzeToeIARTjXVKr4Tj-44" target="lFmzeToeIARTjXVKr4Tj-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-44" value="调用adb的ddl接口创建表" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
-          <mxGeometry x="450" y="1780" width="120" height="60" as="geometry" />
+          <mxGeometry x="450" y="1590" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lFmzeToeIARTjXVKr4Tj-1" source="lFmzeToeIARTjXVKr4Tj-50" target="lFmzeToeIARTjXVKr4Tj-52">
           <mxGeometry relative="1" as="geometry" />
@@ -785,38 +779,41 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-50" value="查询一下这张表是否已经存在" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
-          <mxGeometry x="450" y="1870" width="120" height="60" as="geometry" />
+          <mxGeometry x="450" y="1733" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lFmzeToeIARTjXVKr4Tj-1" source="lFmzeToeIARTjXVKr4Tj-52" target="lFmzeToeIARTjXVKr4Tj-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-52" value="不存在该加速层表" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
-          <mxGeometry x="650" y="1870" width="120" height="60" as="geometry" />
+          <mxGeometry x="650.5" y="1733" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lFmzeToeIARTjXVKr4Tj-1" source="lFmzeToeIARTjXVKr4Tj-54" target="lFmzeToeIARTjXVKr4Tj-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-54" value="存在该加速层表" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
-          <mxGeometry x="450" y="1960" width="120" height="60" as="geometry" />
+          <mxGeometry x="450" y="1823" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="lFmzeToeIARTjXVKr4Tj-1" source="lFmzeToeIARTjXVKr4Tj-56" target="lFmzeToeIARTjXVKr4Tj-60">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="710" y="2300" />
+              <mxPoint x="710.5" y="2163" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-56" value="通过adbtable和字段和类型和comment，生成一条建表的ddl" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
-          <mxGeometry x="650" y="1960" width="120" height="60" as="geometry" />
+          <mxGeometry x="650.5" y="1823" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lFmzeToeIARTjXVKr4Tj-1" source="lFmzeToeIARTjXVKr4Tj-58" target="lFmzeToeIARTjXVKr4Tj-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-58" value="1、获取字段信息&lt;br&gt;2、比对adb的字段和配置进来的字段是否已经存在，存在则比对是字段名还是类型、comment有修改，如果修改则创建修改的ddl&lt;br&gt;3、如果发现adb中不存在的字段，则新增到adb中" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
-          <mxGeometry x="412.5" y="2050" width="195" height="150" as="geometry" />
+          <mxGeometry x="412.5" y="1913" width="195" height="150" as="geometry" />
         </mxCell>
         <mxCell id="lFmzeToeIARTjXVKr4Tj-60" value="结束adb的接口调用" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
-          <mxGeometry x="450" y="2270" width="120" height="60" as="geometry" />
+          <mxGeometry x="450" y="2133" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lFmzeToeIARTjXVKr4Tj-64" value="批量更新该变更id下的变更项list的状态为已执行到日常" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="lFmzeToeIARTjXVKr4Tj-1">
+          <mxGeometry x="720" y="1470" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
