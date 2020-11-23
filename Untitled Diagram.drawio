@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-23T11:04:53.754Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="7kq7QrDfZFG2OFIJ4c-u" version="13.10.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-11-23T11:07:37.141Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="4IQ4KqvLEG7rg5scXYl5" version="13.10.0" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="新增画像变更流程图">
     <mxGraphModel dx="2990" dy="2494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -893,8 +893,18 @@
         <mxCell id="A5OQ1irwswN4wDoC2Cs_-2" value="根据对应的code和type查definiton表，看是否有definition记录" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="9k4zPxeTD30UBVgrTzLZ-1">
           <mxGeometry x="330" y="760" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="E5W2uEHFaqc17LqR5o1y-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9k4zPxeTD30UBVgrTzLZ-1" source="A5OQ1irwswN4wDoC2Cs_-3" target="E5W2uEHFaqc17LqR5o1y-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="1130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="A5OQ1irwswN4wDoC2Cs_-3" value="如果无&lt;br&gt;1、将变更项明细的value转化为对应的definition对象&lt;br&gt;2、执行新增definition" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="9k4zPxeTD30UBVgrTzLZ-1">
           <mxGeometry x="130" y="890" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="E5W2uEHFaqc17LqR5o1y-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="9k4zPxeTD30UBVgrTzLZ-1" source="A5OQ1irwswN4wDoC2Cs_-4" target="E5W2uEHFaqc17LqR5o1y-0">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A5OQ1irwswN4wDoC2Cs_-4" value="如果有&lt;br&gt;1、将变更项明细中的value转化为对应的definiton对象&lt;br&gt;2、copy变更项明细的definiton对象到原始的对象中&lt;br&gt;3、执行更新definition" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="9k4zPxeTD30UBVgrTzLZ-1">
           <mxGeometry x="300" y="850" width="180" height="130" as="geometry" />
@@ -911,8 +921,20 @@
         <mxCell id="TJHAXrUnmPp6p7FOVsxa-3" value="如果查不出来，则抛异常" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="9k4zPxeTD30UBVgrTzLZ-1">
           <mxGeometry x="540" y="910" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="E5W2uEHFaqc17LqR5o1y-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="9k4zPxeTD30UBVgrTzLZ-1" source="TJHAXrUnmPp6p7FOVsxa-4" target="E5W2uEHFaqc17LqR5o1y-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TJHAXrUnmPp6p7FOVsxa-4" value="如果查出来&lt;br&gt;1、将变更项明细的value转化为definition对象&lt;br&gt;2、将变更项明细的definition对象有的属性copy到definiiton中&lt;br&gt;3、更新definition" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="9k4zPxeTD30UBVgrTzLZ-1">
           <mxGeometry x="730" y="850" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="E5W2uEHFaqc17LqR5o1y-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9k4zPxeTD30UBVgrTzLZ-1" source="E5W2uEHFaqc17LqR5o1y-0" target="E5W2uEHFaqc17LqR5o1y-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E5W2uEHFaqc17LqR5o1y-0" value="1、如果是domainDefiniton和apProfile、profile等信息，则需要记录下来&lt;br&gt;2、然后绑定关系，记录adbtable、columnName、columnType、comment信息等" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="9k4zPxeTD30UBVgrTzLZ-1">
+          <mxGeometry x="450" y="1050" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="E5W2uEHFaqc17LqR5o1y-4" value="遍历完成" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="9k4zPxeTD30UBVgrTzLZ-1">
+          <mxGeometry x="480" y="1260" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
