@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-23T11:27:43.354Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="snc0uBitu_ISZDOmL-B7" version="13.10.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-11-23T11:39:35.479Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="qodTgszi1JZDGAL0mu56" version="13.10.0" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="新增画像变更流程图">
     <mxGraphModel dx="2990" dy="2494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1028,12 +1028,66 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ENhh5gRnAWLlr3oudVsT" name="进入下一个节点">
-    <mxGraphModel dx="1298" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2125" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="-Hod_ypHd2PNC_PUv11o-0" />
         <mxCell id="-Hod_ypHd2PNC_PUv11o-1" parent="-Hod_ypHd2PNC_PUv11o-0" />
+        <mxCell id="DEL-5ziLorwpDpGpMprR-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-Hod_ypHd2PNC_PUv11o-1" source="-Hod_ypHd2PNC_PUv11o-2" target="DEL-5ziLorwpDpGpMprR-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-Hod_ypHd2PNC_PUv11o-2" value="进入下一个节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="-Hod_ypHd2PNC_PUv11o-1">
           <mxGeometry x="354" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DEL-5ziLorwpDpGpMprR-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-Hod_ypHd2PNC_PUv11o-1" source="DEL-5ziLorwpDpGpMprR-2" target="DEL-5ziLorwpDpGpMprR-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DEL-5ziLorwpDpGpMprR-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-Hod_ypHd2PNC_PUv11o-1" source="DEL-5ziLorwpDpGpMprR-2" target="DEL-5ziLorwpDpGpMprR-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DEL-5ziLorwpDpGpMprR-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-Hod_ypHd2PNC_PUv11o-1" source="DEL-5ziLorwpDpGpMprR-2" target="DEL-5ziLorwpDpGpMprR-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DEL-5ziLorwpDpGpMprR-2" value="通过SE的id找到对应的流程信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-Hod_ypHd2PNC_PUv11o-1">
+          <mxGeometry x="354" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DEL-5ziLorwpDpGpMprR-4" value="返回的状态为：&lt;br&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;tahoma&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;airal&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; ; background-color: rgb(255 , 255 , 255)&quot;&gt;check&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="-Hod_ypHd2PNC_PUv11o-1">
+          <mxGeometry x="354" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DEL-5ziLorwpDpGpMprR-6" value="返回的状态为：&lt;br&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;tahoma&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;airal&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; ; background-color: rgb(255 , 255 , 255)&quot;&gt;online&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="-Hod_ypHd2PNC_PUv11o-1">
+          <mxGeometry x="570" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DEL-5ziLorwpDpGpMprR-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-Hod_ypHd2PNC_PUv11o-1" source="DEL-5ziLorwpDpGpMprR-8" target="DEL-5ziLorwpDpGpMprR-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DEL-5ziLorwpDpGpMprR-8" value="返回的状态为：&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;tahoma&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;airal&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; ; background-color: rgb(255 , 255 , 255)&quot;&gt;design&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="-Hod_ypHd2PNC_PUv11o-1">
+          <mxGeometry x="150" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DEL-5ziLorwpDpGpMprR-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-Hod_ypHd2PNC_PUv11o-1" source="DEL-5ziLorwpDpGpMprR-10" target="DEL-5ziLorwpDpGpMprR-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DEL-5ziLorwpDpGpMprR-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-Hod_ypHd2PNC_PUv11o-1" source="DEL-5ziLorwpDpGpMprR-10" target="DEL-5ziLorwpDpGpMprR-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DEL-5ziLorwpDpGpMprR-10" value="查询变更id下的未删除的变更项是否存在设计中的变更项" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="-Hod_ypHd2PNC_PUv11o-1">
+          <mxGeometry x="150" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DEL-5ziLorwpDpGpMprR-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-Hod_ypHd2PNC_PUv11o-1" source="DEL-5ziLorwpDpGpMprR-12" target="DEL-5ziLorwpDpGpMprR-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DEL-5ziLorwpDpGpMprR-12" value="没有设计中的变更项" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="-Hod_ypHd2PNC_PUv11o-1">
+          <mxGeometry x="-50" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DEL-5ziLorwpDpGpMprR-14" value="有设计中的变更项，则返回不能执行到日常的信息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="-Hod_ypHd2PNC_PUv11o-1">
+          <mxGeometry x="150" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DEL-5ziLorwpDpGpMprR-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-Hod_ypHd2PNC_PUv11o-1" source="DEL-5ziLorwpDpGpMprR-16" target="DEL-5ziLorwpDpGpMprR-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DEL-5ziLorwpDpGpMprR-16" value="推进该se流程到下一个状态" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="-Hod_ypHd2PNC_PUv11o-1">
+          <mxGeometry x="-50" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DEL-5ziLorwpDpGpMprR-18" value="返回成功信息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="-Hod_ypHd2PNC_PUv11o-1">
+          <mxGeometry x="-50" y="820" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
